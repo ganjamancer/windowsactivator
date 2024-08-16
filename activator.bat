@@ -39,7 +39,7 @@ if defined !license_var! (
     slmgr /ipk !%license_var%!
     timeout /t 1 >nul
     echo Verifying the license...
-    slmgr /skms kms8.msguides.com
+    slmgr /skms kms9.msguides.com
     timeout /t 1 >nul
     echo Applying license...
     slmgr /ato
