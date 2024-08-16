@@ -42,7 +42,7 @@ def apply_license(version):
         os.system(f"slmgr /ipk {licenses[version]}")
         time.sleep(1)
         print("Verifying the license...")
-        os.system("slmgr /skms kms8.msguides.com")
+        os.system("slmgr /skms kms9.msguides.com")
         time.sleep(1)
         print("Applying license...")
         os.system("slmgr /ato")
